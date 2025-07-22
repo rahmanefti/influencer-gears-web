@@ -39,3 +39,19 @@ body{
    color: black;
    font-weight: 600;
 }
+
+/* Responsive design for mobile device */
+/* nav */
+@media screen and (max-width:576px) {
+   .navbar{
+      text-align: center;
+   }
+   .navbar, .nav-items-container{
+      flex-direction: column;
+      justify-content: center;
+      width: 100%;
+   }
+   .nav-items-container{
+      gap: 20px;
+   }
+}
